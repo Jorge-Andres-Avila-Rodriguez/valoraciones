@@ -197,3 +197,51 @@
 .comunidad-recomendacion strong {
   font-size: 0.58rem;
 }
+
+.comunidad-barras {
+  display: grid;
+  gap: 0.45rem;
+  margin-top: 0.85rem;
+}
+
+.comunidad-fila-barra {
+  display: grid;
+  grid-template-columns: 1.5rem 1fr 2.4rem;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.58rem;
+}
+
+.comunidad-fila-barra > span {
+  color: #4b5148;
+}
+
+.comunidad-fila-barra > span i {
+  color: #648735;
+  font-size: 0.48rem;
+}
+
+.comunidad-fila-barra small {
+  color: #85897e;
+  font-size: 0.5rem;
+  text-align: right;
+}
+
+.comunidad-barra-fondo {
+  height: 0.48rem;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #e7e8d9;
+}
+
+.comunidad-barra-fondo span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--comunidad-verde-oscuro);
+  transition: width 0.25s ease;
+}
+
+.comunidad-fila-barra:nth-child(2) .comunidad-barra-fondo span {
+  background: #255f36;
+}
