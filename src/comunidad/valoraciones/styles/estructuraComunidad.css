@@ -72,3 +72,11 @@
   font-size: 0.7rem;
   font-weight: 700;
 }
+
+.comunidad-main {
+  display: grid;
+  gap: 1.15rem;
+  width: min(100%, 92rem);
+  margin: 0 auto;
+  padding: 0.85rem clamp(1rem, 2vw, 2rem) 1.4rem;
+}
