@@ -4,3 +4,50 @@
   background: #60371f;
   color: #f6f0dc;
 }
+
+.comunidad-footer-superior {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding-bottom: 1.3rem;
+}
+
+.comunidad-footer h2 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 0.95rem;
+}
+
+.comunidad-footer h2 i {
+  color: var(--comunidad-lima);
+}
+
+.comunidad-footer p {
+  margin: 0.3rem 0 0;
+  color: #e2d6c6;
+  font-family: Georgia, serif;
+  font-size: 0.58rem;
+}
+
+.comunidad-marcas {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: start;
+  align-items: center;
+  gap: 0.35rem;
+  max-width: 25rem;
+}
+
+.comunidad-marcas strong {
+  margin-right: 0.3rem;
+  color: var(--comunidad-lima);
+  font-size: 0.53rem;
+}
+
+.comunidad-marcas span {
+  padding: 0.25rem 0.45rem;
+  border-radius: 0.25rem;
+  background: rgba(255, 255, 255, 0.12);
+  color: #f6e8d6;
+  font-size: 0.5rem;
+}
