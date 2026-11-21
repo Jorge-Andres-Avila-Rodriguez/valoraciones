@@ -43,7 +43,6 @@
   font-size: 0.48rem;
 }
 
-
 .comunidad-tags {
   display: flex;
   align-items: center;
@@ -64,3 +63,39 @@
   color: var(--comunidad-muted);
   font-size: 0.5rem;
 }
+
+.comunidad-receta-copy h1 {
+  margin: 0;
+  color: #252a23;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(1rem, 1.6vw, 1.45rem);
+  line-height: 1.2;
+}
+
+.comunidad-receta-copy p {
+  margin: 0.25rem 0 0.55rem;
+  color: #72766d;
+  font-size: 0.64rem;
+}
+
+.comunidad-receta-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 1.2rem;
+  margin: 0;
+  padding: 0;
+  color: #59665a;
+  font-size: 0.58rem;
+  list-style: none;
+}
+
+.comunidad-receta-meta li {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.comunidad-receta-meta i {
+  color: var(--comunidad-verde);
+}
+
