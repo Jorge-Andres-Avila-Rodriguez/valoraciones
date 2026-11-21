@@ -353,3 +353,24 @@
     width: 5rem;
   }
 }
+
+@media (max-width: 800px) {
+  .comunidad-columnas {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .comunidad-columna-izquierda {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .comunidad-garantia {
+    grid-column: 1 / -1;
+  }
+
+  .comunidad-resena-foto,
+  .comunidad-consejo {
+    height: 6rem;
+    min-height: 6rem;
+  }
+}
