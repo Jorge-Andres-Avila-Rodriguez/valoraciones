@@ -161,3 +161,7 @@
   background: var(--comunidad-verde-profundo);
   color: white;
 }
+
+.comunidad-alerta {
+  color: #a12622;
+}
