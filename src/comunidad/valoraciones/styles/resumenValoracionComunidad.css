@@ -1,0 +1,11 @@
+.comunidad-receta-card {
+  display: grid;
+  grid-template-columns: 6rem minmax(0, 1fr) 8.5rem;
+  align-items: center;
+  gap: 1rem;
+  min-height: 7.8rem;
+  padding: 0.85rem 1.1rem;
+  border: 1px solid #e8e7d9;
+  border-radius: 0.85rem;
+  background: rgba(255, 255, 255, 0.33);
+}
