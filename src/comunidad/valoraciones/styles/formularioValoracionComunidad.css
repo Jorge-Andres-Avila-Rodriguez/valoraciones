@@ -141,3 +141,29 @@
   color: #777d70;
   font-size: 0.4rem;
 }
+
+.comunidad-campo-comentario {
+  display: grid;
+  gap: 0.25rem;
+  color: #555b50;
+  font-size: 0.53rem;
+}
+
+.comunidad-campo-comentario textarea {
+  width: 100%;
+  min-height: 3.4rem;
+  resize: vertical;
+  padding: 0.55rem;
+  border: 1px solid #e1e2d5;
+  border-radius: 0.5rem;
+  outline-color: var(--comunidad-verde);
+  background: rgba(255, 255, 255, 0.35);
+  color: var(--comunidad-texto);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.57rem;
+}
+
+.comunidad-campo-comentario > small {
+  color: #888c80;
+  text-align: right;
+}
