@@ -4,7 +4,7 @@ import './index.css'
 import './comunidad/valoraciones/styles/comunidad.css'
 import Header from './components/Header'
 import DashboardView from './components/DashboardView'
-import CommunityRatingsView from './comunidad/valoraciones/CommunityRatingsView'
+import CommunityRatingsView from "./comunidad/valoraciones/VistaValoracionesComunidad.jsx";
 
 const comentariosRuta = window.location.pathname.match(/^\/recetas\/(\d+)\/comentarios\/?$/)
 const idReceta = comentariosRuta ? Number(comentariosRuta[1]) : null
