@@ -42,3 +42,25 @@
   color: #fff;
   font-size: 0.48rem;
 }
+
+
+.comunidad-tags {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: 0.25rem;
+}
+
+.comunidad-tags span {
+  padding: 0.12rem 0.35rem;
+  border-radius: 0.25rem;
+  background: var(--comunidad-lima);
+  color: #335420;
+  font-size: 0.5rem;
+  font-weight: 800;
+}
+
+.comunidad-tags small {
+  color: var(--comunidad-muted);
+  font-size: 0.5rem;
+}
