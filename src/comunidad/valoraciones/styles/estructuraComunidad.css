@@ -374,3 +374,130 @@
     min-height: 6rem;
   }
 }
+
+@media (max-width: 560px) {
+  .comunidad-main {
+    gap: 0.8rem;
+    padding: 0.65rem 0.7rem 1rem;
+  }
+
+  .comunidad-receta-card {
+    grid-template-columns: 4rem minmax(0, 1fr);
+    gap: 0.6rem;
+    padding: 0.65rem;
+  }
+
+  .comunidad-foto-receta {
+    width: 4rem;
+  }
+
+  .comunidad-receta-copy h1 {
+    font-size: 0.95rem;
+  }
+
+  .comunidad-receta-copy p {
+    font-size: 0.55rem;
+    line-height: 1.35;
+  }
+
+  .comunidad-receta-meta {
+    gap: 0.3rem 0.65rem;
+    font-size: 0.49rem;
+  }
+
+  .comunidad-estrellas-resumen {
+    grid-column: 1 / -1;
+    grid-template-columns: auto auto 1fr;
+    align-items: center;
+    justify-items: start;
+    gap: 0.4rem;
+    width: 100%;
+    padding: 0.35rem 0.55rem;
+  }
+
+  .comunidad-estrellas-resumen small {
+    justify-self: end;
+  }
+
+  .comunidad-columna-izquierda {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .comunidad-garantia {
+    grid-column: auto;
+  }
+
+  .comunidad-subcalificaciones {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .comunidad-subcalificacion {
+    gap: 0.15rem;
+  }
+
+  .comunidad-subcalificacion > span {
+    font-size: 0.58rem;
+  }
+
+  .comunidad-subcalificacion > small {
+    font-size: 0.48rem;
+  }
+
+  .comunidad-resenas-cabecera,
+  .comunidad-resenas-titulo {
+    align-items: flex-start;
+  }
+
+  .comunidad-resenas-cabecera {
+    flex-direction: column;
+  }
+
+  .comunidad-filtros {
+    width: 100%;
+  }
+
+  .comunidad-filtros button {
+    flex: 1;
+    padding-inline: 0.3rem;
+    font-size: 0.43rem;
+  }
+
+  .comunidad-resenas-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .comunidad-resena-texto {
+    min-height: 0;
+  }
+
+  .comunidad-resena-foto,
+  .comunidad-consejo {
+    height: 9rem;
+    min-height: 9rem;
+  }
+
+  .comunidad-publicar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .comunidad-publicar > button {
+    width: 100%;
+  }
+
+  .comunidad-reporte {
+    flex-wrap: wrap;
+  }
+
+  .comunidad-reporte > span {
+    flex-basis: calc(100% - 2rem);
+  }
+
+  .comunidad-footer-superior {
+    flex-direction: column;
+  }
+
+  .comunidad-footer > nav small {
+    margin-left: 0;
+  }
+}
