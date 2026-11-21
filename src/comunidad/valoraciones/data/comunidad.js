@@ -26,7 +26,6 @@ export const VALORACIONES_COMUNIDAD = [
   { id: 5, idReceta: 128, idUsuario: 5, calificacion: 4 },
 ]
 
-// 1.4 Reseñas completas
 export const RESENAS_COMUNIDAD = [
   {
     id: 1,
