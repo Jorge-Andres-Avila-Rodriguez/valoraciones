@@ -69,3 +69,52 @@
   border-radius: 0.7rem;
   background: rgba(255, 255, 255, 0.27);
 }
+
+.comunidad-resena-autor {
+  display: flex;
+  align-items: center;
+  gap: 0.42rem;
+}
+
+.comunidad-resena-autor .comunidad-avatar {
+  width: 1.8rem;
+  font-size: 0.58rem;
+}
+
+.comunidad-avatar.avatar-1 { background: #286544; }
+.comunidad-avatar.avatar-2 { background: #627c12; }
+.comunidad-avatar.avatar-4 { background: #714528; }
+
+.comunidad-resena-autor > div {
+  display: grid;
+  min-width: 0;
+}
+
+.comunidad-resena-autor strong {
+  overflow: hidden;
+  color: #3e443a;
+  font-family: Georgia, serif;
+  font-size: 0.67rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.comunidad-resena-autor small {
+  overflow: hidden;
+  color: #85897e;
+  font-size: 0.43rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.comunidad-verificado {
+  color: #558151;
+  font-size: 0.6rem;
+}
+
+.comunidad-resena-autor time {
+  margin-left: auto;
+  color: #8b8e82;
+  font-size: 0.42rem;
+  white-space: nowrap;
+}
