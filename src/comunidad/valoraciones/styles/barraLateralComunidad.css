@@ -188,3 +188,30 @@ comunidad-sidebar-label {
   background: rgba(255, 255, 255, 0.12);
   color: white;
 }
+
+.comunidad-sidebar-footer {
+  flex: 0 0 auto;
+  padding-top: 0.8rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.comunidad-sidebar-footer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  width: 100%;
+  min-height: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  border-radius: 0.8rem;
+  background: rgba(255, 255, 255, 0.16);
+  color: white;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.comunidad-sidebar-footer button:hover {
+  background: rgba(255, 255, 255, 0.24);
+}
