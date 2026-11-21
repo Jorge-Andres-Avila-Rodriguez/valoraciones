@@ -167,3 +167,62 @@
   color: #888c80;
   text-align: right;
 }
+
+.comunidad-carga-foto {
+  padding: 0.55rem;
+  border-radius: 0.55rem;
+  background: #efefe4;
+}
+
+.comunidad-carga-foto > label {
+  color: #485548;
+  font-size: 0.53rem;
+  font-weight: 700;
+}
+
+.comunidad-carga-foto > span {
+  float: right;
+  color: #598013;
+  font-size: 0.48rem;
+  font-weight: 700;
+}
+
+.comunidad-foto-drop {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-top: 0.35rem;
+}
+
+.comunidad-foto-drop > label {
+  display: grid;
+  justify-items: center;
+  gap: 0.15rem;
+  min-width: 3.8rem;
+  padding: 0.38rem;
+  border: 1px dashed #c9cbbb;
+  border-radius: 0.4rem;
+  color: #697064;
+  cursor: pointer;
+  font-size: 0.46rem;
+}
+
+.comunidad-foto-drop > label i {
+  font-size: 1rem;
+}
+
+.comunidad-foto-drop input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+.comunidad-nombre-foto {
+  overflow: hidden;
+  color: #74796d;
+  font-size: 0.5rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
