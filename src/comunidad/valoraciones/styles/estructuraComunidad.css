@@ -80,3 +80,16 @@
   margin: 0 auto;
   padding: 0.85rem clamp(1rem, 2vw, 2rem) 1.4rem;
 }
+
+.comunidad-miga {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: #8a8e82;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.6rem;
+}
+
+.comunidad-miga strong {
+  color: var(--comunidad-verde-oscuro);
+}
