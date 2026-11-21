@@ -7,7 +7,7 @@ import ThemeToggle from '../../components/ThemeToggle'
 import TopBar from '../../components/TopBar'
 import PieComunidad from './PieComunidad'
 import FormularioValoracionComunidad from './FormularioValoracionComunidad'
-import ResumenValoracionComunidad from './ResumenValoracionComunidad'
+import ResumenValoracionComunidad from './ResumenValoracionesComunidad'
 import ResenasComunidad from './ResenasComunidad'
 import BarraLateralComunidad from './BarraLateralComunidad'
 
