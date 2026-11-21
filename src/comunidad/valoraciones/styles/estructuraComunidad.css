@@ -27,3 +27,15 @@
   --comunidad-fuente-etiqueta: 'IBM Plex Mono', monospace;
   --comunidad-fuente-marca: 'Poppins', sans-serif;
 }
+
+.comunidad-app {
+  display: flex;
+  min-height: 100vh;
+  background: var(--comunidad-marfil);
+  color: var(--comunidad-texto);
+  font-family: var(--comunidad-fuente-texto);
+}
+
+.comunidad-app * {
+  box-sizing: border-box;
+}
