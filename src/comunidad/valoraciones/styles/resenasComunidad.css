@@ -143,3 +143,34 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 5;
 }
+
+.comunidad-resena-foto {
+  height: clamp(4.5rem, 9vw, 7rem);
+  overflow: hidden;
+  border-radius: 0.45rem;
+  background: #e1ddc9;
+}
+
+.comunidad-resena-foto .comunidad-plato {
+  height: 180%;
+  transform: translateY(-20%);
+}
+
+.comunidad-consejo {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: clamp(4.5rem, 9vw, 7rem);
+  padding: 0.6rem;
+  border-radius: 0.45rem;
+  background: #edf0e3;
+  color: #55704c;
+  font-family: Georgia, serif;
+  font-size: 0.55rem;
+  line-height: 1.4;
+}
+
+.comunidad-consejo i {
+  flex: 0 0 auto;
+  font-size: 1rem;
+}
