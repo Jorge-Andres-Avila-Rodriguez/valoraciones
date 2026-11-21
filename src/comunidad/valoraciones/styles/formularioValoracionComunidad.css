@@ -96,3 +96,48 @@
   font-size: 0.52rem;
   font-weight: 700;
 }
+
+.comunidad-subcalificaciones {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.comunidad-subcalificacion {
+  display: grid;
+  gap: 0.3rem;
+  padding: 0.5rem;
+  border-radius: 0.45rem;
+  background: #f0f0e4;
+}
+
+.comunidad-subcalificacion > span {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.15rem;
+  color: #565c4d;
+  font-size: 0.48rem;
+}
+
+.comunidad-subcalificacion > span strong {
+  font-weight: 600;
+}
+
+.comunidad-subcalificacion > span b {
+  color: var(--comunidad-verde-oscuro);
+}
+
+.comunidad-subcalificacion input {
+  width: 100%;
+  height: 0.55rem;
+  margin: 0;
+  accent-color: var(--comunidad-verde-profundo);
+}
+
+.comunidad-subcalificacion > small {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.2rem;
+  color: #777d70;
+  font-size: 0.4rem;
+}
