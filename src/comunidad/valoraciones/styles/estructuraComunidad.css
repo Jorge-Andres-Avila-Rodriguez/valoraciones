@@ -1,0 +1,29 @@
+:root {
+  --comunidad-verde: var(--sazon-verdeHoja);
+  --comunidad-verde-oscuro: var(--sazon-verdeNoche);
+  --comunidad-verde-hondo: var(--sazon-verdeHondo);
+  --comunidad-verde-profundo: var(--sazon-verdeNutresa);
+  --comunidad-verde-card: var(--sazon-verdeNutresaCard);
+  --comunidad-lima: var(--sazon-verdeNeon);
+  --comunidad-hoja: var(--sazon-hoja);
+  --comunidad-marfil: var(--sazon-marfil);
+  --comunidad-cacao: var(--sazon-cacao);
+  --comunidad-texto: var(--sazon-texto);
+  --comunidad-muted: var(--sazon-texto2);
+  --comunidad-blanco: #ffffff;
+  --comunidad-superficie: #efefe4;
+  --comunidad-superficie-suave: rgba(255, 255, 255, 0.33);
+  --comunidad-borde: #e4e5d7;
+  --comunidad-borde-suave: #e8e7d9;
+  --comunidad-error: #a12622;
+  --comunidad-activo: #557c0d;
+  --comunidad-fondo-oscuro: #143522;
+  --comunidad-superficie-oscura: #215b33;
+  --comunidad-card-oscura: #1b4332;
+  --comunidad-texto-oscuro: #f4f4e8;
+  --comunidad-texto-suave-oscuro: #e3e9d8;
+  --comunidad-fuente-texto: 'Inter', sans-serif;
+  --comunidad-fuente-titulo: Georgia, 'Times New Roman', serif;
+  --comunidad-fuente-etiqueta: 'IBM Plex Mono', monospace;
+  --comunidad-fuente-marca: 'Poppins', sans-serif;
+}
