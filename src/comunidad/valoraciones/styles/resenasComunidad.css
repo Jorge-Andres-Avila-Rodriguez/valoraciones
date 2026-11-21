@@ -174,3 +174,35 @@
   flex: 0 0 auto;
   font-size: 1rem;
 }
+
+.comunidad-resena-acciones {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.4rem;
+  margin-top: auto;
+  padding-top: 0.5rem;
+}
+
+.comunidad-resena-acciones button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #858a7d;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.46rem;
+}
+
+.comunidad-resena-acciones button:first-child i {
+  color: #bb2d32;
+}
+
+.comunidad-resena-acciones .comunidad-resena-eliminar {
+  color: #a12622;
+  font-weight: 700;
+}
+
+.comunidad-resena-acciones .comunidad-resena-eliminar:disabled {
+  cursor: wait;
+  opacity: 0.55;
+}
