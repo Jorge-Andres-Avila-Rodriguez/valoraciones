@@ -118,3 +118,28 @@
   font-size: 0.42rem;
   white-space: nowrap;
 }
+
+.comunidad-resena-puntaje {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-top: 0.4rem;
+}
+
+.comunidad-resena-puntaje small {
+  color: #767b6e;
+  font-size: 0.43rem;
+}
+
+.comunidad-resena-texto {
+  display: -webkit-box;
+  min-height: 4rem;
+  margin: 0.35rem 0 0.5rem;
+  overflow: hidden;
+  color: #51564d;
+  font-family: Georgia, serif;
+  font-size: 0.58rem;
+  line-height: 1.5;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
