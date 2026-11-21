@@ -165,3 +165,181 @@
 .comunidad-alerta {
   color: #a12622;
 }
+
+.dark .comunidad-app {
+  --comunidad-marfil: #143522;
+  --comunidad-texto: #f4f4e8;
+  --comunidad-muted: #c4caba;
+  --comunidad-superficie: #215b33;
+  --comunidad-superficie-suave: #1b4332;
+  --comunidad-borde: rgba(255, 255, 255, 0.12);
+  --comunidad-borde-suave: rgba(255, 255, 255, 0.18);
+}
+
+.dark .comunidad-sidebar {
+  background: var(--sazon-verdeHoja);
+}
+
+.dark .comunidad-miga {
+  color: #c4caba;
+}
+
+.dark .comunidad-miga strong,
+.dark .comunidad-estrellas-resumen,
+.dark .comunidad-metricas strong,
+.dark .comunidad-mensaje {
+  color: #f4f4e8;
+}
+
+.dark .comunidad-nav-interna a {
+  border-color: rgba(255, 255, 255, 0.18);
+  background: rgba(255, 255, 255, 0.06);
+  color: #e3e9d8;
+}
+
+.dark .comunidad-nav-interna a:hover,
+.dark .comunidad-nav-interna a.activa {
+  border-color: #66d149;
+  background: #215b33;
+  color: #fff;
+}
+
+.dark .comunidad-receta-copy h1,
+.dark .comunidad-seccion-cabecera h2,
+.dark .comunidad-resenas-titulo h2,
+.dark .comunidad-resena-autor strong {
+  color: #f4f4e8;
+}
+
+.dark .comunidad-receta-copy p,
+.dark .comunidad-receta-meta,
+.dark .comunidad-estrellas-resumen > div > span,
+.dark .comunidad-estrellas-resumen small,
+.dark .comunidad-seccion-cabecera p,
+.dark .comunidad-formulario-cabecera > small,
+.dark .comunidad-fila-barra > span,
+.dark .comunidad-fila-barra small,
+.dark .comunidad-metricas span,
+.dark .comunidad-selector-calificacion > p,
+.dark .comunidad-subcalificacion > span,
+.dark .comunidad-subcalificacion > small,
+.dark .comunidad-campo-comentario,
+.dark .comunidad-campo-comentario > small,
+.dark .comunidad-carga-foto > label,
+.dark .comunidad-carga-foto > span,
+.dark .comunidad-foto-drop > label,
+.dark .comunidad-nombre-foto,
+.dark .comunidad-publicar > label,
+.dark .comunidad-resenas-titulo > span,
+.dark .comunidad-filtros button,
+.dark .comunidad-resena-autor small,
+.dark .comunidad-resena-autor time,
+.dark .comunidad-resena-puntaje small,
+.dark .comunidad-resena-texto,
+.dark .comunidad-consejo,
+.dark .comunidad-resena-acciones button,
+.dark .comunidad-reporte {
+  color: #e3e9d8;
+}
+
+.dark .comunidad-receta-card,
+.dark .comunidad-resena-card {
+  border-color: rgba(255, 255, 255, 0.12);
+  background: #1b4332;
+}
+
+.dark .comunidad-estrellas {
+  color: rgba(244, 244, 232, 0.3);
+}
+
+.dark .comunidad-estrellas .activa,
+.dark .comunidad-estrella-btn.comunidad-estrella-activa {
+  color: #a8df63;
+}
+
+.dark .comunidad-metricas,
+.dark .comunidad-nav-interna a,
+.dark .comunidad-resenas-titulo > span,
+.dark .comunidad-filtros button,
+.dark .comunidad-consejo {
+  background: #1b4332;
+}
+
+.dark .comunidad-metricas div {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.dark .comunidad-fila-barra > span i,
+.dark .comunidad-reporte > i,
+.dark .comunidad-formulario-cabecera h2 i,
+.dark .comunidad-verificado {
+  color: #a8df63;
+}
+
+.dark .comunidad-barra-fondo {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.dark .comunidad-barra-fondo span {
+  background: #7fba00;
+}
+
+.dark .comunidad-selector-calificacion > strong span,
+.dark .comunidad-resena-acciones button:first-child i {
+  color: #ffaaa3;
+}
+
+.dark .comunidad-subcalificacion,
+.dark .comunidad-carga-foto,
+.dark .comunidad-estrellas-resumen,
+.dark .comunidad-selector-calificacion {
+  background: #215b33;
+}
+
+.dark .comunidad-campo-comentario textarea {
+  border-color: rgba(255, 255, 255, 0.24);
+  background: #153a28;
+  color: #f4f4e8;
+}
+
+.dark .comunidad-foto-drop > label {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.dark .comunidad-filtros button.activo,
+.dark .comunidad-reporte button:last-child {
+  background: #215b33;
+  color: #fff;
+}
+
+.dark .comunidad-reporte button:not(:last-child) {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: #1b4332;
+  color: #e3e9d8;
+}
+
+.dark .comunidad-estrellas-resumen,
+.dark .comunidad-selector-calificacion,
+.dark .comunidad-subcalificacion,
+.dark .comunidad-carga-foto,
+.dark .comunidad-metricas,
+.dark .comunidad-reporte {
+  background: #215b33;
+}
+
+.dark .comunidad-selector-calificacion > strong {
+  color: #e3e9d8;
+}
+
+.dark .comunidad-mensaje.error {
+  color: #ffaaa3;
+}
+
+.dark .comunidad-alerta {
+  color: #ffaaa3;
+}
+
+.dark .comunidad-subcalificacion input,
+.dark .comunidad-publicar > label input {
+  accent-color: #a8df63;
+}
