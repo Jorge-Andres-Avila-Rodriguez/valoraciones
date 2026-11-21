@@ -274,3 +274,38 @@
   color: #73786b;
   font-size: 0.48rem;
 }
+
+.comunidad-garantia {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-height: 6rem;
+  padding: 0.8rem;
+  border-radius: 0.65rem;
+  background: #60361e;
+  color: #f7f0d7;
+}
+
+.comunidad-garantia-icono {
+  display: grid;
+  flex: 0 0 2rem;
+  width: 2rem;
+  aspect-ratio: 1;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(184, 243, 74, 0.18);
+  color: var(--comunidad-lima);
+}
+
+.comunidad-garantia strong {
+  color: var(--comunidad-lima);
+  font-family: Georgia, serif;
+  font-size: 0.61rem;
+}
+
+.comunidad-garantia p {
+  margin: 0.2rem 0 0;
+  font-family: Georgia, serif;
+  font-size: 0.56rem;
+  line-height: 1.45;
+}
