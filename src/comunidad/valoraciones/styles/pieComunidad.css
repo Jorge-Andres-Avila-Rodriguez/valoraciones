@@ -1,0 +1,6 @@
+.comunidad-footer {
+  margin-top: auto;
+  padding: 1.3rem clamp(1rem, 2vw, 2rem) 2rem;
+  background: #60371f;
+  color: #f6f0dc;
+}
