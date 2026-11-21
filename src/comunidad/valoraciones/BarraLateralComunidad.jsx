@@ -87,11 +87,103 @@ function BarraLateralComunidad({ idReceta, isOpen, onClose }) {
 
   return (
     <>
-      
+      <aside
+        className={`comunidad-sidebar ${isOpen ? 'menu-abierto' : ''}`}
+        aria-hidden={!isOpen}
+        inert={!isOpen}
+      >
+        <header className="comunidad-sidebar-header">
+          <div className="comunidad-sidebar-marca">
+            <a className="alogo comunidad-marca" href="/" aria-label="Sa-zón Gourmet, inicio">
+              <h1 className="logo">
+                Sa<span className="punto"></span>zón
+              </h1>
+            </a>
+            <span className="comunidad-marca-subtitulo">ECOSISTEMA NUTRESA</span>
+          </div>
+          <button
+            type="button"
+            className="comunidad-cerrar-menu-icono"
+            aria-label="Cerrar menú"
+            onClick={onClose}
+          >
+            <i className="bi bi-x-lg" aria-hidden="true"></i>
+          </button>
+        </header>
+
+
+        <p className="comunidad-sidebar-label">MÓDULOS DEL SISTEMA</p>
+        <nav className="comunidad-nav-lateral" aria-label="Módulos del sistema">
+          {CELULAS.map((celula) => {
+            const expandida = celulaExpandida === celula.id
+            return (
+              <section className="comunidad-modulo" key={celula.id}>
+
+
+                <button
+                  type="button"
+                  className={`comunidad-modulo-btn ${celula.id === 'comunidad' ? 'seleccionado' : ''}`}
+                  aria-expanded={expandida}
+                  aria-controls={`submenu-${celula.id}`}
+                  onClick={() => setCelulaExpandida(expandida ? null : celula.id)}
+                >
+                  <i className={`bi ${celula.icono}`} aria-hidden="true"></i>
+                  <span>{celula.texto}</span>
+                  <i
+                    className={`bi ${expandida ? 'bi-chevron-up' : 'bi-chevron-down'} comunidad-modulo-chevron`}
+                    aria-hidden="true"
+                  ></i>
+                </button>
 
 
 
-     
+                <div
+                  className="comunidad-submodulos"
+                  id={`submenu-${celula.id}`}
+                  hidden={!expandida}
+                >
+                  {celula.submodulos.map((submodulo) => {
+                    const href = celula.id === 'comunidad' && submodulo.actual
+                      ? rutaValoraciones
+                      : submodulo.href
+                    return (
+                      <a
+                        key={submodulo.texto}
+                        href={href}
+                        className={submodulo.actual ? 'actual' : ''}
+                        aria-current={submodulo.actual ? 'page' : undefined}
+                        onClick={onClose}
+                      >
+                        {submodulo.texto}
+                      </a>
+                    )
+                  })}
+                </div>
+              </section>
+            )
+          })}
+        </nav>
+
+
+
+        <footer className="comunidad-sidebar-footer">
+          <button type="button" onClick={onClose}>
+            <i className="bi bi-x-circle" aria-hidden="true"></i>
+            Cerrar Menú
+          </button>
+        </footer>
+      </aside>
+
+
+
+      {isOpen && (
+        <button
+          className="comunidad-overlay"
+          type="button"
+          aria-label="Cerrar menú"
+          onClick={onClose}
+        />
+      )}
     </>
   )
 }
