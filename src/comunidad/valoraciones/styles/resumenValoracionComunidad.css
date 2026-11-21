@@ -245,3 +245,32 @@
 .comunidad-fila-barra:nth-child(2) .comunidad-barra-fondo span {
   background: #255f36;
 }
+
+.comunidad-metricas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0.8rem 0.4rem;
+  border-radius: 0.6rem;
+  background: #efefe3;
+}
+
+.comunidad-metricas div {
+  display: grid;
+  justify-items: center;
+  border-right: 1px solid #dedfce;
+}
+
+.comunidad-metricas div:last-child {
+  border: 0;
+}
+
+.comunidad-metricas strong {
+  color: var(--comunidad-verde-oscuro);
+  font-family: Georgia, serif;
+  font-size: 1.25rem;
+}
+
+.comunidad-metricas span {
+  color: #73786b;
+  font-size: 0.48rem;
+}
