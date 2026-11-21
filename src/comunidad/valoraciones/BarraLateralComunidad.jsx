@@ -80,3 +80,20 @@ const CELULAS = [
     ],
   },
 ]
+
+function BarraLateralComunidad({ idReceta, isOpen, onClose }) {
+  const [celulaExpandida, setCelulaExpandida] = useState('comunidad')
+  const rutaValoraciones = `/recetas/${idReceta}/comentarios`
+
+  return (
+    <>
+      
+
+
+
+     
+    </>
+  )
+}
+
+export default BarraLateralComunidad
