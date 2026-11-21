@@ -99,3 +99,55 @@
   color: var(--comunidad-verde);
 }
 
+.comunidad-estrellas-resumen {
+  display: grid;
+  justify-items: center;
+  gap: 0.1rem;
+  min-width: 7.5rem;
+  padding: 0.5rem 0.35rem;
+  border-radius: 0.6rem;
+  background: #f1f1e4;
+  color: var(--comunidad-verde-oscuro);
+}
+
+.comunidad-estrellas-resumen > div {
+  display: flex;
+  align-items: baseline;
+  gap: 0.2rem;
+}
+
+.comunidad-estrellas-resumen strong {
+  font-family: Georgia, serif;
+  font-size: 1.25rem;
+}
+
+.comunidad-estrellas-resumen > div > span {
+  color: #777a70;
+  font-size: 0.55rem;
+}
+
+.comunidad-estrellas {
+  display: inline-flex;
+  gap: 0.04em;
+  color: #c2c6ad;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.comunidad-estrellas .activa {
+  color: #497812;
+}
+
+.comunidad-estrellas-compacta {
+  font-size: 0.85rem;
+}
+
+.comunidad-estrellas-mini {
+  font-size: 0.7rem;
+}
+
+.comunidad-estrellas-resumen small {
+  color: #7d8275;
+  font-size: 0.51rem;
+}
+
