@@ -1,0 +1,19 @@
+.comunidad-sidebar {
+  position: fixed;
+  z-index: 60;
+  inset: 0 auto 0 0;
+  display: flex;
+  flex-direction: column;
+  width: min(20rem, 85vw);
+  padding: 1.35rem 1.5rem 1.1rem;
+  overflow: hidden;
+  background: var(--comunidad-verde-profundo);
+  color: #fff;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.25);
+  transform: translateX(-105%);
+  transition: transform 0.25s ease;
+}
+
+.comunidad-sidebar.menu-abierto {
+  transform: translateX(0);
+}
